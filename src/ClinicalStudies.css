@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+}
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #adc0ff;
+  color: #000000;
+  padding: 10px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.tabla {
+  width: 70%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 50px;
+  display: center;
+  justify-content: center;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr {
+  height: 50px;
+}
+.texto-informacion {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 0;
+  color: #000000;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+.esteto{
+  margin-top: 22px;
+  margin-right: 15px;
+  height: 30px;
+  width: 30px;
+}
+.contenedor-tabla{
+  display: flex;
+  justify-content: center;
+}
+
+td {
+  padding: 0.75rem 1rem;
+}
+
+tr:hover td {
+  background-color: #edf3ff;
+}
+
+tr:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+th{
+  background-color: #eaefff;
+}
