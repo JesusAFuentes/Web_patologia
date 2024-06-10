@@ -1,42 +1,62 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.div-login {
+  width: 300px;
+  height: 250px;
+  margin: 100px auto;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.inicio {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.inicio button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #9cb6dd;
+  color: white;
+  cursor: pointer;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inicio button:hover {
+  background-color: #6a7fc1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.inicio a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #999;
+}
+.microscopio{
+  height: 50px;
+  width: 50px;
+  user-select: none;
+}
+.patologia{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  user-select: none;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
